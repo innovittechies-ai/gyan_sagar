@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import {
-  GraduationCap,
   Building2,
   BookOpen,
   Users,
@@ -189,30 +188,13 @@ export default function App() {
       {/* B. Institutional Brand Emblem Row */}
       <header className="bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between gap-4">
-          {/* Brand Lockup */}
-          <div className="flex items-center gap-3.5">
-            <div className="w-11 h-11 sm:w-13 sm:h-13 bg-[#0B2545] rounded-sm flex items-center justify-center text-[#D4AF37] border-2 border-[#D4AF37]/40 shadow-sm shrink-0">
-              <GraduationCap className="w-6 h-6 sm:w-7 sm:h-7" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <a href="https://ggits.org/" target="_blank" rel="noreferrer" className="group">
-                  <h1 className="text-lg sm:text-2xl font-bold tracking-tight text-[#0B2545] font-academic group-hover:text-[#D4AF37] transition-colors leading-tight">
-                    GYAN GANGA
-                  </h1>
-                </a>
-                <span className="hidden sm:inline-block text-[11px] font-semibold bg-slate-100 text-[#0B2545] px-2 py-0.5 rounded border border-slate-200">
-                  ESTD. 2003
-                </span>
-              </div>
-              <p className="text-xs sm:text-sm font-semibold text-slate-700 tracking-wide font-academic">
-                INSTITUTE OF TECHNOLOGY & SCIENCES, JABALPUR
-              </p>
-              <p className="text-[10px] sm:text-xs text-slate-500 font-medium">
-                An Autonomous Institution · Approved by AICTE · Accredited by NBA · Affiliated to RGPV Bhopal
-              </p>
-            </div>
-          </div>
+          <a href="#home" className="flex items-center min-w-0">
+            <img
+              src="/corporate-logo.png"
+              alt="Corporate Group of Institutions"
+              className="h-14 sm:h-[4.5rem] w-auto max-w-[min(68vw,28rem)] object-contain object-left"
+            />
+          </a>
 
           {/* Right Action: Apply Now High-Contrast CTA & Mobile Toggle */}
           <div className="flex items-center gap-3">
@@ -397,7 +379,7 @@ export default function App() {
         <div className="absolute inset-0">
           <img
             src={heroCampusImg}
-            alt="Gyan Ganga Institute of Technology & Sciences Campus, Jabalpur"
+            alt="Corporate College of Bhopal campus"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center"
           />
@@ -468,7 +450,7 @@ export default function App() {
               </div>
               <div>
                 <p className="text-[#D4AF37] font-bold">45 Acre Campus</p>
-                <p className="text-slate-400 text-[11px]">Bargi Hills, Jabalpur</p>
+                <p className="text-slate-400 text-[11px]">Bhopal, Madhya Pradesh</p>
               </div>
             </div>
           </div>
@@ -562,15 +544,15 @@ export default function App() {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#B89222]">
                 <Award className="w-4 h-4 text-[#D4AF37]" />
-                <span>Autonomous Excellence · Jabalpur</span>
+                <span>Autonomous Excellence · Bhopal</span>
               </div>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-academic text-[#0B2545] tracking-tight leading-tight">
                 Two Decades of Academic Distinction and Technological Innovation
               </h2>
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                Established in 2003 under the aegis of the Shri Gyan Ganga Educational Trust, GGITS has emerged
+                Established in 2003, Corporate College of Bhopal has emerged
                 as Central India's premier technical autonomous powerhouse. Situated on a serene 45-acre campus
-                near Tilwara Ghat, Bargi Hills, Jabalpur, the institute has pioneered industry-integrated curricula,
+                in Bhopal, the college has pioneered industry-integrated curricula,
                 state-of-the-art research centers, and sustained record placements with leading global Fortune 500 corporations.
               </p>
 
@@ -615,7 +597,7 @@ export default function App() {
               <div className="relative rounded-sm overflow-hidden border border-slate-200 shadow-md">
                 <img
                   src={roboticsLabImg}
-                  alt="Students working in advanced technology robotics lab at GGITS"
+                  alt="Students working in the advanced technology robotics lab at Corporate College of Bhopal"
                   referrerPolicy="no-referrer"
                   className="w-full h-80 sm:h-96 object-cover"
                 />
@@ -826,7 +808,7 @@ export default function App() {
               Placement &amp; Recruiter Ecosystem
             </h2>
             <p className="text-slate-600 text-sm mt-2">
-              The Training &amp; Placement Cell at GGITS bridges academic rigor with corporate leadership.
+              The Training &amp; Placement Cell at Corporate College of Bhopal bridges academic rigor with corporate leadership.
               Over 120+ dream and super dream hiring partners recruit each season.
             </p>
           </div>
@@ -949,7 +931,7 @@ export default function App() {
             <div>
               <div className="inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#B89222] mb-1">
                 <Building className="w-4 h-4 text-[#D4AF37]" />
-                <span>Life At GGITS</span>
+                <span>Life At Corporate College</span>
               </div>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-academic text-[#0B2545] tracking-tight">
                 World-Class Campus Infrastructure
@@ -975,7 +957,7 @@ export default function App() {
               <div className="h-64 overflow-hidden relative">
                 <img
                   src={centralLibraryImg}
-                  alt="Central Learning Resource Center at GGITS"
+                  alt="Central Learning Resource Center at Corporate College of Bhopal"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -1124,7 +1106,7 @@ export default function App() {
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-sm text-xs space-y-1">
                 <p className="font-semibold text-slate-800">Direct Admissions Cell Helpline:</p>
                 <p className="text-slate-600">Telephone: +91 761 4070000 / +91 761 4070003</p>
-                <p className="text-slate-600">Email: admissions@ggits.org · Office: Admin Block, GGITS Campus</p>
+                <p className="text-slate-600">Email: admissions@ccbhopal.edu.in · Office: Admin Block, Corporate College Campus</p>
               </div>
             </div>
 
@@ -1237,7 +1219,7 @@ export default function App() {
                         <label className="block text-slate-300 font-medium mb-1">City &amp; State</label>
                         <input
                           type="text"
-                          placeholder="e.g. Jabalpur, MP"
+                          placeholder="e.g. Bhopal, MP"
                           value={applyForm.city}
                           onChange={(e) => setApplyForm({ ...applyForm, city: e.target.value })}
                           className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-sm text-white placeholder-slate-500 focus:outline-none focus:border-[#D4AF37]"
@@ -1270,19 +1252,13 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Column 1: Core Institutional Profile */}
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-[#0B2545] rounded-sm flex items-center justify-center text-[#D4AF37] border border-[#D4AF37]/40 shrink-0">
-                  <GraduationCap className="w-5 h-5" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-white font-academic tracking-wide text-base">
-                    GGITS JABALPUR
-                  </h3>
-                  <span className="text-[11px] text-slate-400">Autonomous Institution</span>
-                </div>
-              </div>
+              <img
+                src="/corporate-logo.png"
+                alt="Corporate Group of Institutions"
+                className="h-14 w-auto bg-white rounded-sm"
+              />
               <p className="text-xs text-slate-400 leading-relaxed">
-                Gyan Ganga Institute of Technology and Sciences is Central India’s vanguard autonomous institute
+                Corporate College of Bhopal is Central India’s vanguard autonomous college
                 dedicated to world-class technical education, research integrity, and student career empowerment.
               </p>
               <div className="space-y-1 text-xs text-slate-300 pt-1">
@@ -1293,12 +1269,10 @@ export default function App() {
               </div>
               <div className="pt-2">
                 <a
-                  href="https://ggits.org/"
-                  target="_blank"
-                  rel="noreferrer"
+                  href="#home"
                   className="text-xs text-[#D4AF37] hover:underline flex items-center gap-1 font-semibold"
                 >
-                  <span>Official Website: ggits.org</span>
+                  <span>Corporate College of Bhopal</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
@@ -1367,17 +1341,15 @@ export default function App() {
                 <div className="flex gap-2.5 items-start">
                   <MapPin className="w-4 h-4 text-[#D4AF37] shrink-0 mt-0.5" />
                   <p>
-                    <strong className="text-white">Gyan Ganga Campus:</strong>
+                    <strong className="text-white">Corporate College Campus:</strong>
                     <br />
-                    P.O. Tilwara Ghat, Near Bargi Hills,
-                    <br />
-                    Jabalpur, Madhya Pradesh 482003, India
+                    Bhopal, Madhya Pradesh, India
                   </p>
                 </div>
                 <div className="flex gap-2.5 items-center">
                   <Mail className="w-4 h-4 text-[#D4AF37] shrink-0" />
-                  <a href="mailto:erp@ggits.org" className="hover:text-white transition-colors">
-                    erp@ggits.org | admissions@ggits.org
+                  <a href="mailto:admissions@ccbhopal.edu.in" className="hover:text-white transition-colors">
+                    erp@ccbhopal.edu.in | admissions@ccbhopal.edu.in
                   </a>
                 </div>
                 <div className="flex gap-2.5 items-center">
@@ -1445,14 +1417,12 @@ export default function App() {
           {/* Bottom Copyright Wrapper */}
           <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
             <p>
-              © {new Date().getFullYear()} Gyan Ganga Institute of Technology &amp; Sciences (GGITS), Jabalpur. All Rights Reserved.
+              © {new Date().getFullYear()} Corporate College of Bhopal. All Rights Reserved.
             </p>
             <p className="flex items-center gap-2">
               <span>An Autonomous Institution</span>
               <span>·</span>
-              <a href="https://ggits.org/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white">
-                https://ggits.org/
-              </a>
+              <span className="text-slate-400">Bhopal, Madhya Pradesh</span>
             </p>
           </div>
         </div>
@@ -1581,7 +1551,7 @@ export default function App() {
                   Admissions 2026-2027
                 </span>
                 <h3 className="text-lg font-bold font-academic text-white">
-                  GGITS Application Portal
+                  Corporate College Application Portal
                 </h3>
               </div>
               <button
@@ -1683,7 +1653,7 @@ export default function App() {
                       <label className="block text-slate-700 font-semibold mb-1">Current City</label>
                       <input
                         type="text"
-                        placeholder="e.g. Jabalpur"
+                        placeholder="e.g. Bhopal"
                         value={applyForm.city}
                         onChange={(e) => setApplyForm({ ...applyForm, city: e.target.value })}
                         className="w-full px-3 py-2 border border-slate-300 rounded focus:outline-none focus:border-[#0B2545]"
@@ -1716,7 +1686,7 @@ export default function App() {
                   Campus Panorama Preview
                 </span>
                 <h3 className="text-lg font-bold font-academic text-white">
-                  GGITS Interactive Virtual Tour
+                  Corporate College Virtual Tour
                 </h3>
               </div>
               <button
@@ -1784,7 +1754,7 @@ export default function App() {
                   </h4>
                   <p className="text-xs text-slate-300 mt-1">
                     {virtualTourActiveTab === 'campus' &&
-                      'Spanning 45 verdant acres in Bargi Hills, Jabalpur with Wi-Fi enabled collegiate blocks, sports pavilion, and cafeteria.'}
+                      'Spanning 45 verdant acres in Bhopal with Wi-Fi enabled collegiate blocks, sports pavilion, and cafeteria.'}
                     {virtualTourActiveTab === 'labs' &&
                       'Equipped with 6-axis industrial robotic arms, high-density GPU computing clusters, and real-time sensor simulators.'}
                     {virtualTourActiveTab === 'library' &&
@@ -1794,7 +1764,7 @@ export default function App() {
               </div>
 
               <div className="flex items-center justify-between text-xs text-slate-400">
-                <span>Location: P.O. Tilwara Ghat, Near Bargi Hills, Jabalpur</span>
+                <span>Location: Bhopal, Madhya Pradesh</span>
                 <span className="text-[#D4AF37] font-semibold">Autonomous Technical Institute</span>
               </div>
             </div>
@@ -1814,7 +1784,7 @@ export default function App() {
                   Autonomous Campus ERP
                 </span>
                 <h3 className="text-lg font-bold font-academic text-white">
-                  GGITS Institutional Login
+                  Corporate College Login
                 </h3>
               </div>
               <button
@@ -1951,7 +1921,7 @@ export default function App() {
                   Online Banking &amp; Challan
                 </span>
                 <h3 className="text-lg font-bold font-academic text-white">
-                  GGITS Fee Payment Gateway
+                  Corporate College Fee Payment
                 </h3>
               </div>
               <button

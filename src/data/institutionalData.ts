@@ -318,7 +318,7 @@ export const CAMPUS_FACILITIES = [
   },
   {
     id: "fac-3",
-    title: "Gyan Incubation & Innovation Foundation",
+    title: "Corporate Incubation & Innovation Foundation",
     category: "Startup Ecosystem",
     description: "Recognized MSME incubator nurturing student tech startups with prototype funding, IP patenting, and mentor desks.",
     stats: "24 Startups Incubated · Seed Support"
@@ -327,7 +327,7 @@ export const CAMPUS_FACILITIES = [
     id: "fac-4",
     title: "Auditorium & Cultural Amphitheatre",
     category: "Student Life & Events",
-    description: "Air-conditioned 1,200-seat multi-tier acoustic auditorium host to national tech conclaves and Gyanotsav cultural festival.",
+    description: "Air-conditioned 1,200-seat multi-tier acoustic auditorium host to national tech conclaves and the annual cultural festival.",
     stats: "1,200 Seating · Acoustic Sound"
   }
 ];

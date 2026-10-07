@@ -1,6 +1,6 @@
 {
-  "name": "GGITS Institutional Portal",
-  "description": "Official institutional portal of Gyan Ganga Institute of Technology & Sciences (GGITS), Jabalpur (Autonomous). Approved by AICTE, accredited by NBA, affiliated to RGPV Bhopal.",
+  "name": "Corporate College of Bhopal",
+  "description": "Official institutional portal of Corporate College of Bhopal (Autonomous). Approved by AICTE, accredited by NBA, affiliated to RGPV Bhopal.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
